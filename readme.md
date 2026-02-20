@@ -1,4 +1,4 @@
-# Task 4-3 — Waste Classification REST API 
+# Waste Classification REST API 
 
 A lightweight image classification service built with **Flask + TensorFlow**.  
 The service loads a fine-tuned **Keras Applications** model and exposes a REST API for real-time prediction.

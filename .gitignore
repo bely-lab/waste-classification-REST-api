@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Jupyter (optional)
+.ipynb_checkpoints/
+
+# Data & large files (do not commit)
+data/
+datasets/
+*.zip
+*.tar
+*.gz
+*.7z
+
+models/
+*.keras
+*.h5
+*.pb
+s
+*.jpg
+*.jpeg
+*.png
+*.webp

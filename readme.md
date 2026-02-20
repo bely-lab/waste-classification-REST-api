@@ -9,7 +9,7 @@ The service loads a fine-tuned **Keras Applications** model and exposes a REST A
   - Top-1 predicted class + probability
   - Top-k probabilities for transparency
 
-## Dataset (training source)
+## Dataset 
 This model was trained using the **Waste Classification** dataset from Kaggle:
 - Classes used: `METAL`, `PLASTIC`
 

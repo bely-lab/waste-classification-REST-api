@@ -11,7 +11,7 @@ Only the custom classification head was trained
 Top layers of the base model were unfrozen
 Trained with a lower learning rate
 Fine-tuning improved validation accuracy for all models.
- ResNet50 achieved the best performance
+ResNet50 achieved the best performance
 Therefore, ResNet50 was selected for deployment 
 
 ## What this service does

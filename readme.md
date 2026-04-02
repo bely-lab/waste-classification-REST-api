@@ -1,8 +1,8 @@
 ## Waste Classification REST API 
 
-A lightweight image classification service built with Flask + TensorFlow.  
-The service loads a fine-tuned Keras Applications model and exposes a REST API for real-time prediction.
-Transfer learning were applied using ResNet50, MobileNetV2 and InceptionV3 and the best model chosen.
+- A lightweight image classification service built with Flask + TensorFlow.
+- Transfer learning were applied using ResNet50, MobileNetV2 and InceptionV3 and the best model chosen.
+- The service loads a fine-tuned Keras Applications model and exposes a REST API for real-time prediction.
 
 #### Feature Extraction Phase
 - Base model layers were frozen

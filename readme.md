@@ -2,6 +2,17 @@
 
 A lightweight image classification service built with Flask + TensorFlow.  
 The service loads a fine-tuned Keras Applications model and exposes a REST API for real-time prediction.
+Transfer learning were applied using ResNet50, MobileNetV2 and InceptionV3 and the best model chosen.
+
+#### Feature Extraction Phase
+Base model layers were frozen
+Only the custom classification head was trained
+#### Fine-Tuning Phase
+Top layers of the base model were unfrozen
+Trained with a lower learning rate
+Fine-tuning improved validation accuracy for all models.
+ ResNet50 achieved the best performance
+Therefore, ResNet50 was selected for deployment 
 
 ## What this service does
 - Classifies an uploaded image into metal or plastic wastes

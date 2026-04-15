@@ -12,13 +12,11 @@
 - Trained with a lower learning rate
 - Fine-tuning improved validation accuracy for all models.
 - ResNet50 achieved the best performance, therefore, ResNet50 was selected for deployment 
-
 ## What this service does
 - Classifies an uploaded image into metal or plastic wastes
 - Returns:
    Top-1 predicted class + probability
    Top-k probabilities for transparency
-
 ## Dataset 
 This model was trained using the Waste Classification dataset from Kaggle:
  classes in the data `METAL`, `PLASTIC`

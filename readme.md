@@ -19,5 +19,5 @@
    Top-k probabilities for transparency
 ## Dataset 
 This model was trained using the Waste Classification dataset from Kaggle:
- classes in the data `METAL`, `PLASTIC`
+ classes in the data are `METAL`, `PLASTIC`
 
